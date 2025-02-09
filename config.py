@@ -3,8 +3,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyrogram client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "23159366")
+    API_HASH  = os.environ.get("API_HASH", "4623dd30dd1303bddb729eb0862262d9")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config get this from mongodb
