@@ -4,7 +4,7 @@ Rkn_TelegraphBot = web.RouteTableDef()
 
 @Rkn_TelegraphBot.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("Warrior_TelegraphBot")
+    return web.json_response("Rkn_TelegraphBot")
 
 
 async def web_server():
